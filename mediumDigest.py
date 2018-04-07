@@ -14,7 +14,7 @@ import requests, webbrowser, bs4,random
 
 
 def main():
-    topic = input("TOPICS:   popular   technology   self   culture...\nWhat topic on medium are you interested in? " )
+    topic = input("TOPICS:   popular   technology   self   culture   web-development...\nWhat topic on medium are you interested in? " )
     num_articles = int(input("How many articles do want to read?(1-10) "))
     if (topic and (num_articles > 0)) :
         print('Running...') # display text while downloading the medium page
@@ -37,3 +37,4 @@ def main():
          
 if __name__ == "__main__":
     main()
+    
